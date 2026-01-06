@@ -1,4 +1,20 @@
-
+/**
+ * Types imports for docstrings
+ * @import {
+ *  Channel,
+ *  ChannelManager,
+ *  GuildMember,
+ *  GuildMemberManager,
+ *  Interaction,
+ *  Message,
+ *  MessageManager,
+ *  MessagePayload,
+ *  Role,
+ *  RoleManager,
+ *  User,
+ *  UserManager
+ * } from "discord.js"
+ */
 
 /**
  *
@@ -95,6 +111,7 @@ export const interactionReply = async (
  * Wrapper that handle Message.reply and its catch
  * @param {Message} message A Discord message object
  * @param {MessagePayload} payload The content to reply with
+ * @returns {Promise<Message>}
  */
 export const messageReply = async (message, payload) => {
   return await message
