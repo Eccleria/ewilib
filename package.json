@@ -1,6 +1,6 @@
 {
   "name": "ewilib",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Ewibot related library, containing commons functions for Discord bots",
   "author": {
     "name": "Eccleria"
