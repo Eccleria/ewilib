@@ -1,0 +1,18 @@
+{
+  "name": "ewilib",
+  "version": "0.1.0",
+  "description": "Ewibot related library, containing commons functions for Discord bots",
+  "author": {
+    "name": "Eccleria"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "discord.js": "^14.25.1",
+    "prettier": "^3.7.4"
+  },
+  "scripts": {
+    "prettier": "prettier --write ./src"
+  }
+}
