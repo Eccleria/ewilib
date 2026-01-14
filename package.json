@@ -13,6 +13,6 @@
     "prettier": "^3.7.4"
   },
   "scripts": {
-    "prettier": "prettier --write ./index*"
+    "prettier": "prettier --write ./src"
   }
 }
