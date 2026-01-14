@@ -93,7 +93,8 @@ export const fetchUser = async (userManager, userId) => {
  * @param {Interaction} interaction Interaction the function is replying to.
  * @param {string|object} data Data of the replying message.
  * @param {boolean} [isEphemeral] Add the Ephemeral flag to message flags, true by default.
- */
+ * @returns {void}
+*/
 export const interactionReply = async (
   interaction,
   data,
