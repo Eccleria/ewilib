@@ -43,8 +43,8 @@ export function fetchUser(
 export function interactionReply(
   interaction: Interaction,
   data: string | object,
-  isEphemeral: boolean?,
-);
+  isEphemeral: boolean | undefined,
+): void;
 export function messageReply(
   message: Message,
   payload: MessagePayload,
