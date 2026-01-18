@@ -8,9 +8,10 @@
   "license": "MIT",
   "private": true,
   "main": "src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "discord-api-types": "^0.38.37"
+  },
   "devDependencies": {
-    "discord.js": "^14.25.1",
     "eslint": "^9.39.2",
     "eslint-plugin-jsdoc": "^62.1.0",
     "prettier": "^3.7.4"
