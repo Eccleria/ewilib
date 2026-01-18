@@ -1,3 +1,5 @@
+import { MessageFlags } from "discord-api-types/v10";
+
 /**
  * Types imports for docstrings
  * @import {
@@ -13,9 +15,11 @@
  *  MessagePayload,
  *  Role,
  *  RoleManager,
+ *  ThreadChannel,
+ *  ThreadManager,
  *  User,
  *  UserManager
- * } from "discord.js"
+ * } from "discord-api-types/v10"
  */
 
 /**
