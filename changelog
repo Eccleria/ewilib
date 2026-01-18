@@ -1,7 +1,7 @@
 # 0.2.0
 - CI: add a `lint` job [#10](https://github.com/Eccleria/ewilib/issues/10) [#11](https://github.com/Eccleria/ewilib/pull/11)
 - Feat: add a `fetchThread()` wrapper [#5](https://github.com/Eccleria/ewilib/issues/5) [#8](https://github.com/Eccleria/ewilib/pull/8)
+- Package: add `eslint` as a dev dependancy [#7](https://github.com/Eccleria/ewilib/issues/7) [#9](https://github.com/Eccleria/ewilib/pull/9)
 
 # 0.1.0
 - Feat: Add basic wrappers for most fetch and send functions [#1](https://github.com/Eccleria/ewilib/pull/1) [#2](https://github.com/Eccleria/ewilib/pull/2)
-

@@ -3,6 +3,8 @@
  * @import {
  *  Channel,
  *  ChannelManager,
+ *  Client,
+ *  Guild,
  *  GuildMember,
  *  GuildMemberManager,
  *  Interaction,
