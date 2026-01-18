@@ -11,9 +11,12 @@
   "dependencies": {},
   "devDependencies": {
     "discord.js": "^14.25.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jsdoc": "^62.1.0",
     "prettier": "^3.7.4"
   },
   "scripts": {
+    "lint": "eslint src",
     "prettier": "prettier --write ./src"
   }
 }
