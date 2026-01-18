@@ -40,8 +40,8 @@ export function fetchRole(
 ): Promise<Role>;
 export function fetchThread(
   threadManager: ThreadManager,
-  threadId: string
-): Promise<ThreadChannel>
+  threadId: string,
+): Promise<ThreadChannel>;
 export function fetchUser(
   userManager: UserManager,
   userId: string,
