@@ -79,6 +79,16 @@ export const fetchRole = async (roleManager, roleId) => {
 };
 
 /**
+ * Fetch a thread from its id using a ThreadManager
+ * @param {ThreadManager} threadManager The manager to fetch the thread from
+ * @param {string} threadId The id of the thread
+ * @returns {Promise<ThreadChannel>}
+ */
+export const fetchThread = async (threadManager, threadId) => {
+  return await threadManager.fetch(threadId).catch(console.error);
+};
+
+/**
  * Fetch a role from its id using a RoleManager
  * @param {UserManager} userManager The manager to fetch the user from
  * @param {string} userId The id of the user to fetch

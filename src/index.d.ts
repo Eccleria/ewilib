@@ -11,6 +11,8 @@ import type {
   MessagePayload,
   Role,
   RoleManager,
+  ThreadChannel,
+  ThreadManager,
   User,
   UserManager,
 } from "discord.js";
@@ -36,6 +38,10 @@ export function fetchRole(
   roleManager: RoleManager,
   roleId: string,
 ): Promise<Role>;
+export function fetchThread(
+  threadManager: ThreadManager,
+  threadId: string
+): Promise<ThreadChannel>
 export function fetchUser(
   userManager: UserManager,
   userId: string,
