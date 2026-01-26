@@ -1,0 +1,44 @@
+{
+  "test": {
+    "name": "test",
+    "guildId": "926909708072284170",
+
+    "charteChannelId": "935180557770448956",
+    "presentationChannelId": "988100769356079114",
+    "roleChannelId": "967059786644488192",
+
+    "roleMessageId": "973889029969936406",
+
+    "alavirienRoleId": "981493533598961706",
+    "sentinelleRoleId": "1043971181461651506",
+
+    "panDuomReactId": "😠",
+    "rudolphslichId": "1052970160903950346",
+
+    "catsThreadId": "1137456643123183637"
+  },
+  "prod": {
+    "name": "prod",
+    "guildId": "816961245743808582",
+
+    "charteChannelId": "817066925976191037",
+    "presentationChannelId": "816966112968179712",
+    "roleChannelId": "974735995872350208",
+
+    "alavirienRoleId": "826743423612092436",
+    "sentinelleRoleId": "816975096518279188",
+
+    "panDuomReactId": "826036478672109588",
+    "rudolphslichId": "1050186232547790848",
+
+    "catsThreadId": "933456973591097415"
+  },
+  "shared": {
+    "name": "shared",
+    "admins": ["290505766631112714"],
+    "helloEmoji": "👋",
+    "octagonalSignEmoji": "🛑",
+    "presentationReactId": "👋",
+    "removeEmoji": "❌"
+  }
+}
