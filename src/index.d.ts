@@ -17,6 +17,23 @@ import type {
   UserManager,
 } from "discord-api-types";
 
+//#region Classes
+
+export class Commons {
+  constructor(test: object, prod: object, shared: object);
+  public getTest(): object;
+  public getProd(): object;
+  public getShared(): object;
+  public getOK(): Number;
+  public getKO(): Number;
+  public fetchFromGuildId(guildId: string): object;
+  public getList(): object[];
+}
+
+//#endregion
+
+//#region Helpers
+
 export function channelSend(
   channel: Channel,
   payload: object,
@@ -55,3 +72,5 @@ export function messageReply(
   message: Message,
   payload: MessagePayload,
 ): Promise<Message>;
+
+//#endregion
