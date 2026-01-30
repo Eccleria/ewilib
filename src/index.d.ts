@@ -15,7 +15,7 @@ import type {
   ThreadManager,
   User,
   UserManager,
-} from "discord-api-types";
+} from "discord.js";
 
 export function channelSend(
   channel: Channel,
