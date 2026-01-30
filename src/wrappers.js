@@ -40,7 +40,7 @@ export const channelSend = async (channel, payload) => {
  * @returns {Promise<Channel>}
  */
 export const fetchChannel = async (channels, id) => {
-  const channel = await channels.fetch(id).catch(console.err);
+  const channel = await channels.fetch(id).catch(console.error);
   return channel;
 };
 
