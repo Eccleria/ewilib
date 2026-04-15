@@ -1,5 +1,4 @@
 
-//Wrappers
 export {
   channelSend,
   fetchChannel,
@@ -8,7 +7,5 @@ export {
   fetchMessage,
   fetchRole,
   fetchThread,
-  fetchUser,
-  interactionReply,
-  messageReply
-} from "./wrappers.js";
+  interactionReply
+} from "./wrappers.ts"

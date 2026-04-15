@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": true,
-    "strict": true,
-    "noEmit": true,
+    "declaration": true,
+    "declarationDir": "typings",
 
-    "module": "nodenext",
-    "target": "ES2022",
-    "moduleResolution": "NodeNext"
+    "module": "esnext",
+    "target": "esnext",
+    "outDir": "dist",
+    "rootDir": "."
   },
-  "include": ["**/*.js"]
+  "include": ["src/"]
 }
