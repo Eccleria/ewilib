@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "typings",
+
+    "module": "esnext",
+    "target": "esnext",
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": ["src/"]
+}

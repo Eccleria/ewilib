@@ -1,23 +1,26 @@
 {
   "name": "ewilib",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ewibot related library, containing commons functions for Discord bots",
   "author": {
     "name": "Eccleria"
   },
   "license": "MIT",
   "private": true,
-  "main": "src/index.js",
-  "dependencies": {
-    "discord-api-types": "^0.38.37"
-  },
+  "main": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "devDependencies": {
+    "discord.js": "^14.25.1",
     "eslint": "^9.39.2",
     "eslint-plugin-jsdoc": "^62.1.0",
     "prettier": "^3.7.4"
   },
   "scripts": {
     "lint": "eslint src",
-    "prettier": "prettier --write ./src"
+    "prettier": "prettier --write ./src",
+    "build": "tsc"
   }
 }
